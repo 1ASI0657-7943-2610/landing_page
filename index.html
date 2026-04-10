@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinTeka | Asesoría Experta Inteligente</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Fin<span>Teka</span></a>
+            
+            <ul class="nav-links">
+                 <li><a href="#caracteristicas" data-i18n="nav_features">Características</a></li>
+                <li><a href="#nosotros" data-i18n="nav_about">Sobre Nosotros</a></li>
+                <li><a href="#planes" data-i18n="nav_plans">Planes</a></li>
+                <li><a href="#contacto" data-i18n="nav_contact">Contacto</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <a href="#" class="btn-login" data-i18n="btn_login">Ingresar</a>
+                <a href="#contacto" class="btn-register" data-i18n="btn_register">Regístrate</a>
+                
+                <div class="lang-switch">
+                    <span id="lang-es" class="active">ES</span> | <span id="lang-en">EN</span>
+                </div>
+            </div>
+
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1 data-i18n="hero_title">Asesoría Experta Inteligente y Consultas</h1>
+                <p data-i18n="hero_desc">Optimiza la búsqueda de asesoría profesional con FinTeka. Conecta con expertos verificados, gestiona sesiones de consulta, controla costos y recibe insights para optimizar tus proyectos.</p>
+                <div class="hero-cta">
+                    <a href="#planes" class="btn-solid" data-i18n="hero_btn_plans">Ver Planes</a>
+                    <a href="#contacto" class="btn-outline" data-i18n="hero_btn_register">Regístrate Ahora</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="mockup-card">
+                    <div class="mockup-header">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="mockup-body">
+                        <i class="fas fa-chart-network"></i>
+                        <div class="line"></div>
+                        <div class="line short"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="caracteristicas" class="features">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle" data-i18n="feat_subtitle">Características</span>
+                <h2 data-i18n="feat_title">Potentes Características para tu Negocio</h2>
+                <p data-i18n="feat_desc">Todo lo que necesitas para encontrar y conectar con expertos eficientemente.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-wrapper orange"><i class="fas fa-box-open"></i></div>
+                    <h3 data-i18n="feat1_title">Búsqueda de Expertos</h3>
+                    <p data-i18n="feat1_desc">Accede a un perfil detallado de cada experto, incluyendo experiencia, especialidad, disponibilidad y tarifas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper blue"><i class="fas fa-calendar-alt"></i></div>
+                    <h3 data-i18n="feat2_title">Control de Agendas</h3>
+                    <p data-i18n="feat2_desc">Gestiona las sesiones de asesoría con facilidad y recibe notificaciones cuando un experto actualice su disponibilidad.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper green"><i class="fas fa-bell"></i></div>
+                    <h3 data-i18n="feat3_title">Alertas Inteligentes</h3>
+                    <p data-i18n="feat3_desc">Recibe notificaciones sobre estado de reservas, recordatorios de sesiones y recomendaciones post-sesión.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="nosotros">
+        <section class="video-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2 data-i18n="vid1_title">Conoce la Plataforma</h2>
+                    <p data-i18n="vid1_desc">Descubre cómo FinTeka transforma la manera en que encuentras y gestionas asesorías.</p>
+                </div>
+                <div class="video-container">
+                    <div class="video-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80');">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video-section" style="background-color: var(--bg-light); padding-top: 40px;">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About The Team Demo Video</h2>
+                    <p data-i18n="vid2_desc">Conoce al equipo de expertos detrás de la plataforma.</p>
+                </div>
+                <div class="video-container">
+                    <div class="video-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80');">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="planes" class="pricing-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="plan_title">Elige tu Plan Perfecto</h2>
+                <p data-i18n="plan_desc">Todo lo que necesitas para encontrar y conectar eficientemente y recibir asesoría especializada.</p>
+            </div>
+            
+            <div class="billing-toggle">
+                <span data-i18n="plan_monthly">Mensual</span>
+                <label class="switch">
+                    <input type="checkbox" id="billing-toggle-checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <span><span data-i18n="plan_annual">Anual</span> <span class="badge" data-i18n="plan_save">Ahorra 20%</span></span>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 data-i18n="plan1_name">Gratis</h3>
+                    <p class="plan-desc" data-i18n="plan1_desc">Perfecto para probar FinTeka sin costo.</p>
+                    <div class="price"><span>$</span>0<span data-i18n="per_month">/mes</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> <span data-i18n="f_10exp">Hasta 10 expertos guardados</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="f_2ses">Hasta 2 sesiones por mes</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="f_alertb">Alertas de correo básicas</span></li>
+                    </ul>
+                    <a href="#" class="btn-outline-blue" data-i18n="btn_try_free">Probar Gratis</a>
+                </div>
+
+                <div class="pricing-card popular">
+                    <div class="popular-badge" data-i18n="badge_popular">Más Popular</div>
+                    <h3 data-i18n="plan2_name">Pro</h3>
+                    <p class="plan-desc" data-i18n="plan2_desc">Para negocios que buscan crecer y optimizar.</p>
+                    <div class="price"><span>$</span><span id="pro-price-value">49</span><span data-i18n="per_month">/mes</span></div>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> <span data-i18n="f_5kexp">Hasta 5,000 expertos guardados</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="f_100ses">Hasta 100 sesiones por mes</span></li>
+                        <li><i class="fas fa-check"></i> <span data-i18n="f_alerta">Alertas avanzadas (correo y SMS)</span></li>
+                    </ul>
+                    <a href="#" class="btn-solid-blue" data-i18n="btn_choose_pro">Elegir Plan Pro</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="faq_title">Preguntas Frecuentes</h2>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-card">
+                    <h4 data-i18n="faq1_q">¿Qué es la búsqueda de FinTeka?</h4>
+                    <p data-i18n="faq1_a">FinTeka te conecta con profesionales expertos verificados para asesorías online en tiempo real, optimizando tus proyectos.</p>
+                </div>
+                <div class="faq-card">
+                    <h4 data-i18n="faq2_q">¿Hay un período de prueba gratis?</h4>
+                    <p data-i18n="faq2_a">Sí, nuestro plan básico es gratuito de por vida, ideal para que explores la plataforma y agendes tus primeras sesiones.</p>
+                </div>
+                <div class="faq-card">
+                    <h4 data-i18n="faq3_q">¿Qué métodos de pago aceptan?</h4>
+                    <p data-i18n="faq3_a">Aceptamos todas las tarjetas de crédito principales, PayPal y transferencias bancarias para planes corporativos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="contact_title">Ponte en Contacto</h2>
+                <p data-i18n="contact_desc">¿Listo para revolucionar tu gestión de asesorías? Contáctanos hoy.</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email Us</h4>
+                        <p>contact@finteka.com</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <h4>Call Us</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-row">
+                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                        <input type="email" placeholder="Email Address">
+                        <input type="text" placeholder="Company Name">
+                        <select>
+                            <option value="" data-i18n="form_opt1">Selecciona tu tipo de negocio</option>
+                            <option value="startup">Startup</option>
+                            <option value="pyme" data-i18n="form_opt2">Pequeña Empresa</option>
+                            <option value="freelance">Freelancer / Consultor</option>
+                        </select>
+                        <textarea placeholder="Message" rows="4"></textarea>
+                        <button type="button" class="btn-solid-blue" data-i18n="btn_send">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Fin<span>Teka</span></h3>
+                    <p data-i18n="footer_desc">Gestión inteligente de asesorías para el negocio moderno. Reduce tiempos, optimiza operaciones y maximiza proyectos.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer_prod">Producto</h4>
+                    <a href="#caracteristicas" data-i18n="nav_features">Características</a>
+                    <a href="#planes" data-i18n="nav_plans">Precios</a>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer_sol">Soluciones</h4>
+                    <a href="#">Startups</a>
+                    <a href="#" data-i18n="form_opt2">Pequeña Empresa</a>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer_comp">Compañía</h4>
+                    <a href="#nosotros" data-i18n="nav_about">Sobre Nosotros</a>
+                    <a href="#contacto" data-i18n="nav_contact">Contacto</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 FinTeka. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
